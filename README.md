@@ -51,7 +51,7 @@
 
 [![Snippet Store Showcase][product-screenshot]](https://github.com/AlexandruRoman/snippets-store-backend)
 
-Snippets Store is an online platform which was built with the purpose of helping programmers build good looking interfaces. Web programming is a vast domain, frontend programmers are facing day by day more and more challenges implementing applications that are conforming with modern quality standards, making them to focus more on optimisations, micro-interactions and complex flows instead of desing aspects. In the same time, the design proces a complex task, a domain in continual transformation and change of trends.
+Snippets Store is an online platform which was built with the purpose of helping programmers build good looking interfaces. Web programming is a vast domain, frontend programmers are facing day by day more and more challenges implementing applications that are conforming with modern quality standards, making them to focus more on optimisations, micro-interactions and complex flows instead of design aspects. In the same time, the design proces a complex task, a domain in continual transformation and change of trends.
 
 The term of programming is used having in mind scripting languages and not declarative languages like HTML or CSS. The majority of web designers have control over those 2 technologies, making them able to share their knowledge and talent with the less experimented programmers. This web application aims to be the linking bridge between programmers and designers.
 
