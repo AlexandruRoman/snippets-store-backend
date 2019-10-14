@@ -17,23 +17,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/AlexandruRoman/snippets-store-backend">
+    <img src="logo.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Snippets Store</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    The perfect place for your code inspiration
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/AlexandruRoman/snippets-store-backend/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/AlexandruRoman/snippets-store-backend/issues">Request Feature</a>
   </p>
 </p>
 
@@ -50,86 +46,78 @@
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Snippet Store Showcase][product-screenshot]](https://github.com/AlexandruRoman/snippets-store-backend)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
-
-Here's why:
-
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Snippets Store is an online platform which was built with the purpose of helping programmers build good looking interfaces. Web programming is a vast domain, frontend programmers are facing day by day more and more challenges implementing applications that are conforming with modern quality standards, making them to focus more on optimisations, micro-interactions and complex flows instead of desing aspects. In the same time, the design proces a complex task, a domain in continual transformation and change of trends.
+The term of programming is used having in mind scripting languages and not declarative languages like HTML or CSS. The majority of web designers have control over those 2 technologies, making them able to share their knowledge and talent with the less experimented programmers. This web application is the linking bridge between programmers and designers.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-- [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
-- [Laravel](https://laravel.com)
+- [Node.js](https://nodejs.org)
+- [Express.js](https://expressjs.com)
+- [TypeScript](https://www.typescriptlang.org)
+- [Mongo DB](https://www.mongodb.com)
+- [Mongoose](https://mongoosejs.com/)
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-
-```sh
-npm install npm@latest -g
-```
+- [Install Node.js](https://nodejs.org/en/download/)
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
 
 ```sh
-git clone https:://github.com/your_username_/Project-Name.git
+git clone https://github.com/AlexandruRoman/snippets-store-backend.git
 ```
 
-3. Install NPM packages
+2. Install NPM packages
 
 ```sh
 npm install
 ```
 
-4. Enter your API in `config.js`
+3. Enter your Mongo connection string in `src/mongo.ts`
 
 ```JS
-const API_KEY = 'ENTER YOUR API';
+const url = 'YOUR CONNECTION STRING'
 ```
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This REST API has the endpoints grouped in 4 main categories:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+- finance
+- identity
+- impressions
+- products
+
+These endpoints can be found under src/\_GROUP. The API project uses a feature first architecture so the each endpoint has his own separate file.
+
+An example of getting the details of a snippet using curl:
+
+```bash
+curl -X GET http://localhost/snippet/get/3
+```
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/AlexandruRoman/snippets-store-backend/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -147,45 +135,25 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
 
 <!-- CONTACT -->
 
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
 <!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [Loaders.css](https://connoratherton.com/loaders)
-- [Slick Carousel](https://kenwheeler.github.io/slick)
-- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-- [Sticky Kit](http://leafo.net/sticky-kit)
-- [JVectorMap](http://jvectormap.com)
-- [Font Awesome](https://fontawesome.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/AlexandruRoman/snippets-store-backend.svg?style=flat-square
+[contributors-url]: https://github.com/AlexandruRoman/snippets-store-backend/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AlexandruRoman/snippets-store-backend.svg?style=flat-square
+[forks-url]: https://github.com/AlexandruRoman/snippets-store-backend/network/members
+[stars-shield]: https://img.shields.io/github/stars/AlexandruRoman/snippets-store-backend.svg?style=flat-square
+[stars-url]: https://github.com/AlexandruRoman/snippets-store-backend/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AlexandruRoman/snippets-store-backend.svg?style=flat-square
+[issues-url]: https://github.com/AlexandruRoman/snippets-store-backend/issues
+[license-shield]: https://img.shields.io/github/license/AlexandruRoman/snippets-store-backend.svg?style=flat-square
+[license-url]: https://github.com/AlexandruRoman/snippets-store-backend/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://www.linkedin.com/in/alexandru-daniel-roman/
+[product-screenshot]: screenshot.png
