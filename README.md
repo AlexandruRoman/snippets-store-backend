@@ -11,8 +11,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -54,7 +52,8 @@
 [![Snippet Store Showcase][product-screenshot]](https://github.com/AlexandruRoman/snippets-store-backend)
 
 Snippets Store is an online platform which was built with the purpose of helping programmers build good looking interfaces. Web programming is a vast domain, frontend programmers are facing day by day more and more challenges implementing applications that are conforming with modern quality standards, making them to focus more on optimisations, micro-interactions and complex flows instead of desing aspects. In the same time, the design proces a complex task, a domain in continual transformation and change of trends.
-The term of programming is used having in mind scripting languages and not declarative languages like HTML or CSS. The majority of web designers have control over those 2 technologies, making them able to share their knowledge and talent with the less experimented programmers. This web application is the linking bridge between programmers and designers.
+
+The term of programming is used having in mind scripting languages and not declarative languages like HTML or CSS. The majority of web designers have control over those 2 technologies, making them able to share their knowledge and talent with the less experimented programmers. This web application aims to be the linking bridge between programmers and designers.
 
 ### Built With
 
@@ -152,8 +151,6 @@ Distributed under the MIT License.
 [stars-url]: https://github.com/AlexandruRoman/snippets-store-backend/stargazers
 [issues-shield]: https://img.shields.io/github/issues/AlexandruRoman/snippets-store-backend.svg?style=flat-square
 [issues-url]: https://github.com/AlexandruRoman/snippets-store-backend/issues
-[license-shield]: https://img.shields.io/github/license/AlexandruRoman/snippets-store-backend.svg?style=flat-square
-[license-url]: https://github.com/AlexandruRoman/snippets-store-backend/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/alexandru-daniel-roman/
 [product-screenshot]: screenshot.png
