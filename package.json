@@ -93,7 +93,7 @@
         "joi": "^14.3.1",
         "jsonwebtoken": "^8.5.0",
         "moment": "^2.24.0",
-        "mongodb": "^3.1.10",
+        "mongodb": "^3.1.13",
         "mongoose": "^5.4.9",
         "mongoose-dateonly": "^1.0.6",
         "reflect-metadata": "^0.1.12"
